@@ -1,11 +1,11 @@
 <?php
 /*
-      Thanks to : 
+      Cảm ơn đặc biệt đến : 
              https://github.com/tomiashari/fb-autoreaction
              https://github.com/dfmcvn/getFBtoken
              https://github.com/tro1d/bot-reaction-gettoken
 */
-//////Modified by まやちゃん//////
+//////UPLOADED BY K90 HACK GAME MOBILE//////
 function code($user1, $pass1, $r_male1,$r_female1,$max_status1){
 $buat = '<?php
 $user = "'.$user1.'";
@@ -20,36 +20,36 @@ fclose($file);
 echo "Sukses Disetting";
 }
 echo "\033[1;35m  ___ ___ _____   _    ___   ___ ___ _  _ \n";
-echo " / __| __|_   _| | |  / _ \ / __|_ _| \| | \n";
-echo " \__ \ _|  | |   | |_| (_) | (_ || || .` | \n";
-echo " |___/___| |_|   |____\___/ \___|___|_|\_| \n";
-echo "\033[1mAre you sure you want to do this?\n";
-echo "Type 'yes' to continue: ";
+echo "ĐĂNG NHẬP TÀI KHOẢN FACEBOOK/n";
+
+
+echo "\033[1mBẠN CÓ CHẮC MUỐN TIẾP TỤC?\n";
+echo "Gõ yes để tiếp tục: ";
 $handle = fopen ("php://stdin","r");
 $line = fgets($handle);
 if(trim($line) != 'yes'){
-     echo "EXIT!\n"; 
+     echo "THOÁT!\n"; 
     exit;
 } 
 echo "\n";
-echo "\033[1m======BOT REACTION FACEBOOK======\n";
-print "|       TYPE OF REACTION        |\n";
-print "| 1 for like      3 for wow     |\n";
-print "| 2 for love      4 for haha    |\n";
-print "| 7 for sad       8 for angry   |\n";
+echo "\033[1m======BOT THẢ CẢM XÚC FACEBOOK======\n";
+print "|       LOẠI CẢM XÚC        |\n";
+print "| 1 LÀ THÍCH     3 LÀ WOW    |\n";
+print "| 2 LÀ YÊU      4 LÀ HAHA   |\n";
+print "| 7 for BUỒN      8 LÀ PHẪN NỘ   |\n";
 print "--------------★★★★★★-------------\n";
 print "\n";
 print "\n";
 echo "\033[0m \n"; 
-echo "Username/Email : ";
+echo "Tên người dùng/Email : ";
 $user1 = trim(fgets(STDIN));
-echo "Password : ";
+echo "Mật Khẩu : ";
 $pass1 = trim(fgets(STDIN));
-echo "Reaction if user male : ";
+echo "Cứ ghi là 1 : ";
 $r_male1 = trim(fgets(STDIN));
-echo "Reaction if user female : ";
+echo "Cứ ghi là 2: ";
 $r_female1 = trim(fgets(STDIN));
-echo "Maximum reacted status (ex:100) : ";
+echo "Thả cảm xúc tối đa(ví dụ:100) : ";
 $max_status1 = trim(fgets(STDIN));
 $execute = code($user1, $pass1, $r_male1,$r_female1,$max_status1);
 print $execute;

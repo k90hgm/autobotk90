@@ -78,7 +78,7 @@ fclose($file);
 }
 
 echo "\033[1;33m __   _____  _   _ ___   _____ ___  _  _____ _____ \n";
-echo " TOKEN CỦA BẠN/n";
+echo " TOKEN CỦA BẠN\n";
 
 
 echo "\033[0m \n\n";

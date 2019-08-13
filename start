@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# FB React Tools
-# by 
+# FB AUTO BOT
+# UPLOADED BY K90 HACK GAME MOBILE
 
 black='\033[1;30m'
 red='\033[1;31m'
@@ -13,20 +13,20 @@ white='\033[1;37m'
 
 
 echo -e $blue"   _______    ___               __  ";
-echo -e $blue"  / __/ _ )  / _ \___ ___ _____/ /_ ";
-echo -e $blue" / _// _ |  / , _/ -_) _  / __/ __/ ";
-echo -e $blue"/_/ /____/ /_/|_|\__/\_,_/\__/\__/ ";
+echo -e $blue"FACEBOOK AUTO BOT";
+
+
 echo -e $red"              UPLOADED BY K90 HACK GAME MOBILE  ";
-echo -e $green" Thanks to: ";
+echo -e $green" Cảm ơn đặc biệt đến: ";
 echo -e $green" https://github.com/tomiashari/fb-autoreaction";
 echo -e $green" https://github.com/dfmcvn/getFBtoken ";
 echo -e $green" https://github.com/tro1d/bot-reaction-gettoken";
 echo -e $white"\n";
 sleep 1
-echo "1 ) Input nomer atu jika kamu belum install php";
-echo "2 ) Input nomer dua jika kamu sudah install php";
-echo "99) Input nomor ini untuk keluar";
-read -p "[まやちゃん] >"  act;
+echo "1 ) Gõ 1 nếu bạn chưa tải php";
+echo "2 ) Gõ 2 nếu bạn đã tải php";
+echo "99) Gõ 99 để thoát";
+read -p "[Like và Subscribe nếu thấy hay..] >"  act;
 
 if [ $act = 1 ] || [ $act = 1 ]
 then
@@ -56,17 +56,17 @@ fi
 
 if [ $act = 99 ] || [ $act = 99 ]
 then
-echo -e $red'untuk kamu para pemula'
+echo -e $red'Tôi cũng chỉ là người bình thường^^'
 sleep 1
-echo -e $red'jangan berhenti mencari ilmu'
+echo -e $red'Mọi sự cố gắng của bạn sẽ được đền đáp xứng đáng..'
 sleep 2
-echo -e $red'karna mencari topik lebih susah'
+echo -e $red'Cảm ơn những người đã tạo ra git này..đã được việt hóa hoàn toàn'
 sleep 1
-echo -e $red'(╥_╥)'
+echo -e $red'Cảm ơn mọi người đã đồng hành cùng tôi để tạo ra git này'
 sleep 1
-echo -e $red'sekian dari saya'
-echo -e $cyan'まやちゃん '
-echo -e $cyan'www.facebook.com/pudtraa7x'
+echo -e $red'LUÔN HỌC HỎI NHỮNG NGƯỜI ĐI TRƯỚC..'
+echo -e $cyan'Facebook của mình:'
+echo -e $cyan'www.facebook.com/profile.php?id=100006002596531'
 sleep 2
 exit
 fi

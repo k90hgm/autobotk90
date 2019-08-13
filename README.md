@@ -1,7 +1,8 @@
 
-# FB-React
+# AUTO BOT FACEBOOK
 
-git clone it <br>
-masuk direktori <br>
-chmod 777 start <br>
-./start
+Cảm ơn người tạo ra git này <br>
+Hãy đăng ký kênh nếu thấy hay nhé.. <br>
+Tôi thích chia sẻ những thứ 👻 tôi biết cho mọi người ^^ <br>
+--Nguyễn Tiến Đức--
+

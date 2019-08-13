@@ -1,11 +1,11 @@
 <?php
 /*
-      Thanks to : 
+      Cảm ơn đặc biệt đến : 
              https://github.com/tomiashari/fb-autoreaction
              https://github.com/dfmcvn/getFBtoken
              https://github.com/tro1d/bot-reaction-gettoken
 */
-//////Modified by まやちゃん//////
+//////UPLOADED BY K90 HACK GAME MOBILE//////
 error_reporting(E_ALL);
 header('Origin: https://facebook.com');
 define('API_SECRET', '62f8ce9f74b12f84c123cc23437a4a32');
@@ -70,7 +70,7 @@ sign_creator($data);
 $response = cURL('GET', false, $data);
 $responseJSON = json_decode($response);
 $fay = $responseJSON->access_token
-    or exit("Gagal Mengambil Token. Coba Cek Login Lalu Ijin Akses");
+    or exit("Quá trình lấy TOKEN thất bại xin thử lại...");
 if ($fay==true){
 $file = fopen("token.txt","w");
 fwrite($file,$fay);
@@ -78,9 +78,9 @@ fclose($file);
 }
 
 echo "\033[1;33m __   _____  _   _ ___   _____ ___  _  _____ _____ \n";
-echo " \ \ / / _ \| | | | _ \ |_   _/ _ \| |/ / __|_   _| \n";
-echo "  \ V / (_) | |_| |   /   | || (_) | ' <| _|  | | \n";
-echo "   |_| \___/ \___/|_|_\   |_| \___/|_|\_\___| |_| \n";
+echo " TOKEN CỦA BẠN/n";
+
+
 echo "\033[0m \n\n";
 echo $fay;
 ?>
